@@ -1,0 +1,133 @@
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Presh ❤️</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('image1.jpg') center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #fda4af;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.message {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #e2e8f0;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>Happy Birthday, Presh ❤️</h1>
+    <p class="subtitle">My baby. My life. My everything.</p>
+</div>
+
+<div class="section">
+    <h2>📸 Our Moments</h2>
+    <div class="gallery">
+        <img src="image1.jpg">
+        <img src="image2.jpg">
+        <img src="image3.jpg">
+    </div>
+</div>
+
+<div class="section">
+    <h2>💌 To My Love</h2>
+    <p class="message">
+        Presh… my baby, my life…  
+
+        I don’t even know where to start because words don’t fully carry how much you mean to me.  
+        But I’ll try, because you deserve to hear it… today and always.  
+
+        Loving you feels easy, natural… like something my heart has always known how to do.  
+        You’re not just beautiful—you’re peace, you’re warmth, you’re that quiet happiness that stays with me even when you’re not around.  
+
+        Sometimes I catch myself smiling for no reason… then I realize it’s because of you.  
+        Because you exist in my life. Because you chose me.  
+
+        You have this way of making everything feel softer, lighter… even my bad days don’t hit the same when I think about you.  
+
+        And yes, let me say it properly…  
+        You’re fine too much 😌  
+        Like, it should be illegal at this point.  
+
+        But beyond all that…  
+        I cherish you. Deeply.  
+        I value you in ways I don’t always say out loud, but I feel it every single day.  
+
+        You are my safe place, my joy, my calm, my happiness wrapped in one beautiful human.  
+
+        On your birthday, I just want you to know this…  
+        I’m grateful for you.  
+        I’m lucky to have you.  
+        And I will keep choosing you, again and again.  
+
+        Happy Birthday, my love ❤️  
+
+        — Tochi
+    </p>
+</div>
+
+<footer>
+    Made with ❤️ by Tochi
+</footer>
+
+</body>
+</html>
